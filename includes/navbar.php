@@ -27,7 +27,10 @@
                                 <li><a href="<?= BASE_URL ?>/rural-education.php" class="dropdown-item">Rural Children Education</a></li>
                                 <li><a href="<?= BASE_URL ?>/women-empowerment.php" class="dropdown-item">Women Empowerment</a></li>
                                 <li><a href="<?= BASE_URL ?>/disaster-management.php" class="dropdown-item">Disaster Management</a></li>
-                                <li><a href="<?= BASE_URL ?>/special-needs.php" class="dropdown-item">Special Needs Education</a></li>
+                                <li><a href="<?= BASE_URL ?>/disabled-persons.php" class="dropdown-item">Persons with Disabilities</a></li>
+                                <li><a href="<?= BASE_URL ?>/senior-citizens.php" class="dropdown-item">Senior Citizen Care</a></li>
+                                <li><a href="<?= BASE_URL ?>/swachh-bharat.php" class="dropdown-item">Swachh Bharat Mission</a></li>
+                                <li><a href="<?= BASE_URL ?>/animal-welfare.php" class="dropdown-item">Animal Welfare</a></li>
                                 <li><a href="<?= BASE_URL ?>/slum-education.php" class="dropdown-item">Educating Slum Children</a></li>
                                 <li><a href="<?= BASE_URL ?>/health-project.php" class="dropdown-item">Health Project</a></li>
                             </ul>
