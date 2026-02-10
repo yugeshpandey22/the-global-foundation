@@ -2,23 +2,24 @@
 <?php include 'includes/navbar.php'; ?>
 
 <!-- Hero Section with Parallax -->
+<!-- Hero Section with Parallax -->
 <section class="position-relative d-flex align-items-center justify-content-center overflow-hidden" 
-         style="min-height: 600px; background: url('assets/images/Senior%20citizen.jpg') center/cover no-repeat fixed;">
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(135deg, rgba(234, 88, 12, 0.9), rgba(194, 65, 12, 0.8));"></div> <!-- Warm Orange for Seniors/Sunset -->
+         style="min-height: 700px; background: url('assets/images/Senior%20citizen.jpg') center/cover no-repeat fixed;">
+    <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(135deg, rgba(234, 88, 12, 0.9), rgba(124, 45, 18, 0.85));"></div> <!-- Richer Orange/Brown for Warmth -->
     <!-- Animated Particles -->
     <div class="position-absolute w-100 h-100 top-0 start-0" style="background-image: radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px); background-size: 50px 50px; opacity: 0.3;"></div>
     
     <div class="container position-relative z-1 text-center text-white animate-fade-up pb-5">
         <span class="badge bg-white text-warning px-4 py-2 rounded-pill mb-4 text-uppercase fw-bold tracking-wider shadow-sm" style="color: #ea580c !important; letter-spacing: 2px;">
-            Honoring Wisdom
+            Honoring A Lifetime of Love
         </span>
-        <h1 class="display-2 fw-bold mb-4 text-shadow-sm">Golden Care for Golden Years</h1>
-        <p class="lead fw-light opacity-90 mx-auto mb-5fs-4" style="max-width: 800px; line-height: 1.6;">
-            Every senior citizen deserves respect, dignity, and a life full of joy. We provide holistic care and companionship to ensure their twilight years are their best years.
+        <h1 class="display-1 fw-bold mb-4 text-shadow-sm">Where Wisdom Finds a Home</h1>
+        <p class="lead fw-light opacity-90 mx-auto mb-5 fs-4" style="max-width: 800px; line-height: 1.8;">
+            They held our hands when we were small. Now, it's our turn to hold theirs. We are dedicated to providing a sanctuary of dignity, care, and family for those who built our world.
         </p>
-        <div class="d-flex justify-content-center gap-3">
-             <a href="#care-programs" class="btn btn-light text-warning fw-bold px-5 py-3 rounded-pill shadow-lg hover-lift" style="color: #ea580c !important;">Our Services</a>
-             <a href="donate.php" class="btn btn-outline-warning fw-bold px-5 py-3 rounded-pill hover-lift text-white border-2">Adopt a Grandparent</a>
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+             <a href="#care-programs" class="btn btn-light text-warning fw-bold px-5 py-3 rounded-pill shadow-lg hover-lift" style="color: #ea580c !important;">Our Care Services</a>
+             <a href="donate.php" class="btn btn-outline-warning fw-bold px-5 py-3 rounded-pill hover-lift" style="color: #ea580c !important; border-color: #ea580c;">Adopt a Grandparent</a>
         </div>
     </div>
     <!-- Wave Shape Divider -->
@@ -37,9 +38,12 @@
                     <h6 class="text-warning fw-bold text-uppercase ls-md mb-0" style="color: #ea580c !important;">Dignity & Respect</h6>
                     <div class="position-absolute bottom-0 start-0 w-50 h-1 bg-warning opacity-25" style="margin-bottom: -5px;"></div>
                 </div>
-                <h2 class="fw-bold display-5 mb-4 text-dark">Age with Grace & Comfort</h2>
-                <p class="text-secondary mb-5 lead" style="line-height: 1.8;">
-                    Loneliness and lack of healthcare are major challenges for the elderly. At The Global Rise Foundation, we create a supportive community where seniors find purpose, healthcare, and friends.
+                <h2 class="fw-bold display-5 mb-4 text-dark">Not Just a Shelter, But a Home</h2>
+                <p class="text-secondary mb-4 lead" style="line-height: 1.8;">
+                    In India, millions of elderly parents are abandoned or live in isolation. At <strong>The Global Rise Foundation</strong>, we don't just provide a roof; we rebuild families. We create a vibrant community where laughter echoes, stories are shared, and no one ever feels alone again.
+                </p>
+                <p class="text-secondary mb-5" style="line-height: 1.8;">
+                    Our approach goes beyond basic needs. We focus on <strong>Mental Wellness</strong>, <strong>Social Connection</strong>, and <strong>Spiritual Fulfillment</strong> to ensure that the golden years are truly golden.
                 </p>
                 
                 <div class="row g-4">
@@ -212,6 +216,149 @@
     </div>
 </section>
 
+<!-- Moments of Joy (Activities) Section -->
+<section class="py-5 bg-white">
+    <div class="container py-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+                <h6 class="text-warning fw-bold text-uppercase ls-md mb-2" style="color: #ea580c !important;">More Than Care</h6>
+                <h2 class="display-5 fw-bold text-dark">A Day in Our Life</h2>
+            </div>
+            <div class="col-lg-6 text-lg-end">
+                <p class="lead text-secondary mb-0">We believe happiness is the best medicine. Our daily routine is designed to keep minds sharp and hearts full.</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Activity 1 -->
+            <div class="col-md-3 col-sm-6 animate-fade-up">
+                <div class="card border-0 rounded-4 overflow-hidden h-100 shadow-sm hover-lift">
+                    <img src="assets/images/Senior%20citizen.jpg" class="card-img-top object-fit-cover hover-zoom" alt="Morning Yoga" style="height: 250px;">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-om fs-2 text-warning mb-3"></i>
+                        <h5 class="fw-bold mb-2">Morning Yoga</h5>
+                        <p class="small text-secondary mb-0">Starting the day with mindfulness and gentle movement.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 2 -->
+            <div class="col-md-3 col-sm-6 animate-fade-up delay-100">
+                <div class="card border-0 rounded-4 overflow-hidden h-100 shadow-sm hover-lift">
+                    <img src="assets/images/Senior%20citizen2.jpg" class="card-img-top object-fit-cover hover-zoom" alt="Community Dining" style="height: 250px;">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-utensils fs-2 text-success mb-3"></i>
+                        <h5 class="fw-bold mb-2">Community Meals</h5>
+                        <p class="small text-secondary mb-0">Sharing nutritious food and stories together like a family.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 3 -->
+            <div class="col-md-3 col-sm-6 animate-fade-up delay-200">
+                <div class="card border-0 rounded-4 overflow-hidden h-100 shadow-sm hover-lift">
+                    <img src="assets/images/Senior%20citizen.jpg" class="card-img-top object-fit-cover hover-zoom" alt="Music & Arts" style="height: 250px;">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-music fs-2 text-danger mb-3"></i>
+                        <h5 class="fw-bold mb-2">Music & Arts</h5>
+                        <p class="small text-secondary mb-0">Expressing creativity through painting and bhajans.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Activity 4 -->
+            <div class="col-md-3 col-sm-6 animate-fade-up delay-300">
+                <div class="card border-0 rounded-4 overflow-hidden h-100 shadow-sm hover-lift">
+                    <img src="assets/images/Senior%20citizen2.jpg" class="card-img-top object-fit-cover hover-zoom" alt="Evening Walk" style="height: 250px;">
+                    <div class="card-body text-center p-4">
+                        <i class="fa-solid fa-leaf fs-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-2">Nature Walks</h5>
+                        <p class="small text-secondary mb-0">Peaceful evenings spent connecting with nature.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why It Matters (Stats) Section -->
+<section class="py-5 text-white position-relative" style="background: linear-gradient(135deg, #1f2937 0%, #111827 100%);">
+    <div class="container py-5 position-relative z-1">
+        <div class="row align-items-center">
+            <div class="col-lg-5 mb-4 mb-lg-0 animate-fade-up">
+                <h2 class="display-5 fw-bold mb-4">Why We Must Act Now</h2>
+                <p class="lead opacity-75 mb-4">The silent crisis of elderly neglect is growing. Your support changes these numbers into stories of hope.</p>
+                <a href="donate.php" class="btn btn-warning text-dark fw-bold px-4 py-3 rounded-pill hover-lift">Change a Life Today</a>
+            </div>
+            <div class="col-lg-7">
+                <div class="row g-4 text-center">
+                    <div class="col-sm-4 animate-fade-up delay-100">
+                        <div class="p-4 border border-white border-opacity-10 rounded-4 bg-white bg-opacity-5 hover-lift">
+                            <h2 class="display-4 fw-bold text-warning mb-0 counter" data-target="15">0</h2><span class="fs-4 text-warning">%</span>
+                            <p class="small text-white-50 mt-2 text-uppercase fw-bold">Elderly Live Alone</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 animate-fade-up delay-200">
+                        <div class="p-4 border border-white border-opacity-10 rounded-4 bg-white bg-opacity-5 hover-lift">
+                            <h2 class="display-4 fw-bold text-danger mb-0 counter" data-target="40">0</h2><span class="fs-4 text-danger">%</span>
+                            <p class="small text-white-50 mt-2 text-uppercase fw-bold">Financially Insecure</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 animate-fade-up delay-300">
+                        <div class="p-4 border border-white border-opacity-10 rounded-4 bg-white bg-opacity-5 hover-lift">
+                            <h2 class="display-4 fw-bold text-success mb-0 counter" data-target="100">0</h2><span class="fs-4 text-success">%</span>
+                            <p class="small text-white-50 mt-2 text-uppercase fw-bold">Love at Global Rise</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stories of Resilience (Testimonials) -->
+<section class="py-5 bg-light">
+    <div class="container py-5">
+        <div class="text-center mb-5 animate-fade-up">
+            <span class="text-warning fw-bold text-uppercase ls-md" style="color: #ea580c !important;">Real Voices</span>
+            <h2 class="display-5 fw-bold text-dark mt-2">Stories of Hope & Renewal</h2>
+        </div>
+        
+        <div class="row g-4">
+            <!-- Story 1 -->
+            <div class="col-lg-6 animate-fade-up">
+                <div class="bg-white p-5 rounded-4 shadow-sm h-100 position-relative border-start border-4 border-warning">
+                    <i class="fa-solid fa-quote-right position-absolute top-0 end-0 m-4 fs-1 text-light"></i>
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <img src="assets/images/Senior%20citizen.jpg" class="rounded-circle object-fit-cover shadow-sm" width="80" height="80" alt="Mrs. Kapoor">
+                        <div>
+                            <h5 class="fw-bold mb-0">Mrs. Savitri Kapoor</h5>
+                            <small class="text-secondary">Resident since 2024</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary lead fst-italic">
+                        "After my husband passed away, the silence in my house was deafening. Looking at the walls felt like a punishment. Coming to Global Rise Foundation gave me a second family. Here, I laugh again, I cook with friends, and I feel needed."
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Story 2 -->
+            <div class="col-lg-6 animate-fade-up delay-100">
+                <div class="bg-white p-5 rounded-4 shadow-sm h-100 position-relative border-start border-4 border-info">
+                    <i class="fa-solid fa-quote-right position-absolute top-0 end-0 m-4 fs-1 text-light"></i>
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <img src="assets/images/Senior%20citizen2.jpg" class="rounded-circle object-fit-cover shadow-sm" width="80" height="80" alt="Mr. Verma">
+                        <div>
+                            <h5 class="fw-bold mb-0">Mr. Ramesh Verma</h5>
+                            <small class="text-secondary">Resident since 2023</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary lead fst-italic">
+                        "I spent years worrying about medical bills and loneliness. Here, I don't just get medicines; I get care. The volunteers treat me like their own grandfather. I have found peace in my final years."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Impact / Vision Section -->
 <section class="py-5 text-white position-relative" style="background: #1f2937;">
     <div class="position-absolute top-0 end-0 w-50 h-100" style="background: linear-gradient(to left, rgba(234, 88, 12, 0.1), transparent);"></div>
@@ -259,12 +406,12 @@
 <!-- Call to Action Section with Gradient -->
 <section class="py-5 position-relative overflow-hidden" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);">
     <div class="container py-5 text-center position-relative z-1 animate-fade-up">
-        <h2 class="display-5 fw-bold text-white mb-3">Adopt a Grandparent Today</h2>
-        <p class="text-white-50 lead mb-5 mx-auto" style="max-width: 600px;">
-            Your support can provide medicine, food, and a safe home for an abandoned senior citizen.
+        <h2 class="display-4 fw-bold text-white mb-4">Be the Reason They Smile Today</h2>
+        <p class="text-white-50 lead mb-5 mx-auto fs-4" style="max-width: 700px;">
+            Your small contribution can provide a warm meal, essential medicine, or a safe bed for an abandoned senior. Join our family of changemakers.
         </p>
         <div class="d-flex justify-content-center gap-3">
-             <a href="member.php" class="btn btn-white text-warning fw-bold px-5 py-3 rounded-pill shadow-lg hover-lift" style="color: #ea580c !important;">Volunteer With Us</a>
+             <a href="member.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Member With Us</a>
              <a href="donate.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Donate Now</a>
         </div>
     </div>

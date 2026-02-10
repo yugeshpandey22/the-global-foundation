@@ -76,7 +76,7 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-6 animate-fade-up">
                 <div class="position-relative">
-                    <img src="assets/images/swachh-bharat2.jpg" class="w-100 rounded-4 shadow-lg object-fit-cover" style="height: 500px;" alt="Cleanliness Drive">
+                    <img src="assets/images/Swachh%20Bharat.jpg" class="w-100 rounded-4 shadow-lg object-fit-cover" style="height: 500px;" alt="Cleanliness Drive">
                     <div class="position-absolute bottom-0 end-0 bg-white p-4 rounded-3 shadow-xl m-4 border-start border-5 border-info">
                         <h2 class="fw-bold text-dark counter mb-0 display-4" data-target="1000">0+</h2>
                         <small class="text-uppercase fw-bold text-secondary tracking-wider">Cleanliness Drives</small>
@@ -88,7 +88,7 @@
                     <h5 class="text-info fw-bold text-uppercase mb-3">Our Mission</h5>
                     <h2 class="display-4 fw-bold text-dark mb-4">Transforming India through <span class="text-success fst-italic">Action</span></h2>
                     <p class="text-secondary lead mb-4" style="line-height: 1.8;">
-                        We don't just talk about cleanliness; we pick up the broom. Our members work every weekend to clean public spaces, segregate waste, and educate communities about hygiene.
+                        We don't just talk about cleanliness; we pick up the broom. Our member work every weekend to clean public spaces, segregate waste, and educate communities about hygiene.
                     </p>
                     <ul class="list-unstyled d-flex flex-column gap-3 mb-5">
                         <li class="d-flex align-items-center text-dark fs-5">
@@ -193,6 +193,9 @@
         }, { threshold: 0.5 });
         counters.forEach(c => observer.observe(c));
     });
+</script>
+
+
 </script>
 
 <?php include 'includes/footer.php'; ?>

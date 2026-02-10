@@ -121,7 +121,7 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end animate-fade-up delay-100">
                 <a href="member.php" class="btn btn-light text-danger fw-bold px-5 py-3 rounded-pill shadow-lg me-2 hover-lift">Become a Member</a>
-                <a href="donate.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Donate for Relief</a>
+                <a href="donate.php" class="btn btn-light text-danger fw-bold px-5 py-3 rounded-pill hover-lift">Donate for Relief</a>
             </div>
         </div>
     </div>

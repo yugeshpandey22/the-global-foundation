@@ -159,7 +159,9 @@
             </div>
             <div class="col-lg-4 text-center text-lg-end animate-fade-up delay-100">
                 
-                <a href="donate.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Contribute</a>
+<a href="donate.php" class="btn btn-outline-success fw-bold px-5 py-3 rounded-pill hover-lift">
+  Contribute
+</a>
             </div>
         </div>
     </div>

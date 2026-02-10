@@ -54,7 +54,7 @@
             A small contribution can feed a hungry dog, vaccinate a cat, or save an injured bird.
         </p>
         <div class="d-flex justify-content-center gap-3">
-             <a href="member.php" class="btn btn-white text-success fw-bold px-5 py-3 rounded-pill shadow-lg hover-lift" style="color: #16a34a !important;">Become a Member</a>
+            <a href="member.php"  class="btn btn-outline-warning fw-bold px-5 py-3 rounded-pill hover-lift text-white border-2">Become a Member</a>
              <a href="donate.php" class="btn btn-outline-warning fw-bold px-5 py-3 rounded-pill hover-lift text-white border-2">Donate Now</a>
         </div>
     </div>

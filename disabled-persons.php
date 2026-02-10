@@ -304,7 +304,7 @@
             Your contribution can sponsor a therapy session, buy a wheelchair, or fund a child's education.
         </p>
         <div class="d-flex justify-content-center gap-3">
-             <a href="member.php" class="btn btn-white text-info fw-bold px-5 py-3 rounded-pill shadow-lg hover-lift">Join Our Mission</a>
+             <a href="member.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Join Our Mission</a>
              <a href="donate.php" class="btn btn-outline-light fw-bold px-5 py-3 rounded-pill hover-lift">Donate Now</a>
         </div>
     </div>

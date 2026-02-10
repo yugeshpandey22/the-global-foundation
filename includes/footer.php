@@ -47,7 +47,7 @@
             <p class="mb-0 small text-white-50">
                 &copy; <?= date('Y') ?> <strong>THE GLOBAL RISE FOUNDATION</strong>. All Rights Reserved. 
                 <span class="mx-1">|</span> 
-                Designed by <strong class="text-warning">Mineib Creative Technology</strong>
+                Designed by <strong class="text-warning"> YUGESH Mineib Creative Technology</strong>
             </p>
         </div>
     </div>
