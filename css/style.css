@@ -16,6 +16,20 @@ body {
     text-decoration: none;
 }
 
+/* Move Logo Up */
+.navbar-brand {
+    position: relative;
+    top: -12px;
+    /* Adjust this value to move logo further up or down */
+}
+
+/* Ensure Logo Image is Responsive if removed from inline */
+.navbar-brand img {
+    max-height: 140px;
+    /* Use max-height to respect the inline 140px but allow scaling */
+    width: auto;
+}
+
 .nav-link {
     font-weight: 700;
     font-size: 16px;

@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "divya_sankalp_db";
+$dbname = "global_rise_db";
 
 echo "Connecting to MySQL...\n";
 try {

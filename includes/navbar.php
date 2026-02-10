@@ -4,7 +4,7 @@
             <div class="container-fluid px-0">
                 <!-- Logo -->
                 <a href="<?= BASE_URL ?>/index.php" class="navbar-brand d-flex align-items-center gap-3">
-                    <img src="<?= BASE_URL ?>/assets/images/logo.png?v=<?= time() ?>" alt="The Global Rise Foundation" style="height: 85px; width: auto;">
+                    <img src="<?= BASE_URL ?>/assets/images/logo.png?v=<?= time() ?>" alt="The Global Rise Foundation" style="height: 140px; width: auto;">
                     <div class="d-flex flex-column">
                         <span class="fw-bold text-success lh-1" style="font-size: 1.5rem;">The Global Rise</span>
                         <span class="text-secondary small fw-semibold text-uppercase" style="letter-spacing: 1.5px; font-size: 0.8rem;">Foundation</span>

@@ -120,10 +120,10 @@
                 <div class="bg-white p-4 rounded-4 shadow-sm text-center h-100 hover-lift position-relative overflow-hidden group">
                     <div class="position-absolute top-0 start-0 w-100 h-1 bg-success"></div>
                     <div class="mb-3 d-inline-block p-1 rounded-circle border border-2 border-light shadow-sm">
-                         <img src="assets/images/team/shivani_mishra.png" alt="Shivani Mishra" class="rounded-circle" width="80" height="80">
+                         <img src="assets/images/WhatsApp2.jpeg" alt="Deepak Bhadana" class="rounded-circle" width="80" height="80">
                     </div>
-                    <h5 class="fw-bold text-dark mb-1">Shivani Mishra</h5>
-                    <p class="text-success small fw-bold text-uppercase mb-0">President</p>
+                    <h5 class="fw-bold text-dark mb-1">Deepak Bhadana</h5>
+                    <p class="text-success small fw-bold text-uppercase mb-0">Director</p>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -131,10 +131,10 @@
                 <div class="bg-white p-4 rounded-4 shadow-sm text-center h-100 hover-lift position-relative overflow-hidden group">
                     <div class="position-absolute top-0 start-0 w-100 h-1 bg-success"></div>
                     <div class="mb-3 d-inline-block p-1 rounded-circle border border-2 border-light shadow-sm">
-                         <img src="assets/images/team/poonam_singh.png" alt="Poonam Singh" class="rounded-circle" width="80" height="80">
+                         <img src="assets/images/WhatsApp.jpeg" alt="Sonu Tanwar" class="rounded-circle" width="80" height="80">
                     </div>
-                    <h5 class="fw-bold text-dark mb-1">Poonam Singh</h5>
-                    <p class="text-success small fw-bold text-uppercase mb-0">Vice President</p>
+                    <h5 class="fw-bold text-dark mb-1">Sonu Tanwar</h5>
+                    <p class="text-success small fw-bold text-uppercase mb-0">Co-Director</p>
                 </div>
             </div>
             <!-- Card 3 -->

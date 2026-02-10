@@ -93,7 +93,7 @@
 <!-- Optional: Map Section (Unique Touch) -->
 <section class="bg-white border-top">
     <iframe 
-        src="https://maps.google.com/maps?q=101/4%20Arya%20Nagar%20Block%202%20Rajpur%20Road%20Dehradun&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+        src="https://maps.google.com/maps?q=Gothra%20Mohabtabad%2C%20Pali%2C%20Faridabad%2C%20Haryana&t=&z=15&ie=UTF8&iwloc=&output=embed" 
         width="100%" 
         height="450" 
         style="border:0; display: block;" 

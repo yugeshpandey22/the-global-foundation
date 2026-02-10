@@ -3,19 +3,27 @@
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "global_rise_db"; // Using a dedicated DB for this project
+// Check if running on localhost
+if ($_SERVER['HTTP_HOST'] == 'localhost' || $_SERVER['HTTP_HOST'] == '127.0.0.1') {
+    $username = "root";
+    $password = "";
+    $dbname = "global_rise_db";
+} else {
+    // LIVE SERVER CREDENTIALS - UPDATE THESE
+    $username = "YOUR_LIVE_DB_USERNAME";
+    $password = "YOUR_LIVE_DB_PASSWORD";
+    $dbname = "YOUR_LIVE_DB_NAME";
+}
 
 try {
-    // 1. Connect to MySQL Server
-    $conn = new mysqli($servername, $username, $password);
+    // 1. Connect to MySQL Server (with DB name if possible)
+    $conn = new mysqli($servername, $username, $password, $dbname);
     
-    // 2. Create Database if not exists
-    $conn->query("CREATE DATABASE IF NOT EXISTS $dbname");
+    // 2. Create Database if not exists (Commented out for Live Server compatibility)
+    // $conn->query("CREATE DATABASE IF NOT EXISTS $dbname");
     
-    // 3. Select Database
-    $conn->select_db($dbname);
+    // 3. Select Database (Already selected in constructor)
+    // $conn->select_db($dbname);
     
     // 4. Create Gallery Table
     $table_sql = "CREATE TABLE IF NOT EXISTS gallery (
